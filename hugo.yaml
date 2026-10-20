@@ -1,4 +1,57 @@
 baseURL: https://example.org/
 locale: en-us
-title: My New Hugo Project
+title: Abdulrasheed Fawole
 theme: ["PaperMod"]
+enableEmoji: true
+pygmentsUseClasses: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+params:
+    env: production
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowToc: true
+    ShowContractorLink: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+
+    assets:
+        disableFingerprinting: true
+
+    homeInfoParams:
+        Title: "Hello, howdy? 👋"
+        Content: |
+          I am Abdulrasheed, a student of knowledge. Welcome to my personal page on the internet. [Read more...](/about/)
+
+    socialIcons:  
+        - name: "x"
+          url: "https://x.com/bolaji1729"  
+        - name: "GitHub"
+          url: "https://github.com/Abdulrasheed1729"
+        - name: "Email"
+          url: "mailto:fawomath@gmail.com"
+        - name: "Linkedin"
+          url: "https://www.linkedin.com/in/abdulrasheedfawole/"
+
+languages:
+  en:
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 2
+        - name: Search
+          url: search/
+          weight: 2
+        - name: Tags
+          url: tags/
+          weight: 4
